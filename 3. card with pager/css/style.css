@@ -1,0 +1,46 @@
+body {
+    background-color: lightgray;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    width: 300px;
+    margin: 0 auto;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    padding: 20px;
+    padding-bottom: 0px;
+    line-height: 1;
+    margin-bottom: 5;
+    flex: 2;
+    align-content: end;
+}
+p {
+    color: brown;
+    margin-top: 0;
+    flex: 2;
+
+}
+
+a {
+    font-size: 30px;
+    color: gray;
+    text-decoration: none;
+    margin: 0 5px;
+    flex: 1;
+}
+
+.active {
+    color: black;
+}
